@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="026a3e15c35369108f991f53e401311a" label="CS_Account" max_length="40" name="x_1051869_custoser_cs_account" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+    <element db_object_id="93fc7ed5c35369108f991f53e40131c8" extends="core_company" label="CS_Account" max_length="40" name="x_1051869_custoser_cs_account" type="collection">
+        <element choice="1" label="Business Structure" max_length="40" name="business_structure" type="choice">
+            <choice/>
+        </element>
+        <element label="Date of incorporation" max_length="40" name="date_of_incorporation" type="glide_date"/>
+        <element choice="1" label="Industry" max_length="40" name="industry" type="choice">
+            <choice/>
+        </element>
+        <element label="Legal entity name" max_length="40" name="legal_entity_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parent Account" max_length="32" name="parent_account" reference="x_1051869_customer_account" type="reference"/>
+        <element label="Partner" max_length="40" name="partner" type="boolean"/>
+        <element label="Registration Code" max_length="40" name="registration_code" type="string"/>
+        <element label="Tax ID" max_length="40" name="tax_id" type="string"/>
         <index name="index">
-            <element name="sys_class_name"/>
+            <element name="parent_account"/>
         </index>
     </element>
 </database>

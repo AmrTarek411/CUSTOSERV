@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5371c75dc35369108f991f53e40131f3" label="CS_Consumer" max_length="40" name="x_1051869_custoser_cs_consumer" type="collection">
+        <element label="Biling Address" max_length="40" name="biling_address" type="boolean"/>
+        <element label="Business phone" max_length="40" name="business_phone" type="phone_number_e164"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Date format" max_length="40" name="date_format" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Fax" max_length="40" name="fax" type="phone_number_e164"/>
+        <element label="First name" max_length="40" name="first_name" type="string"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice/>
+        </element>
+        <element label="Home phone" max_length="40" name="home_phone" type="phone_number_e164"/>
+        <element choice="1" label="Language" max_length="40" name="language" type="choice">
+            <choice/>
+        </element>
+        <element label="Mailing Address" max_length="40" name="mailing_address" type="boolean"/>
+        <element label="Middle Name" max_length="40" name="middle_name" type="string"/>
+        <element label="Mobile phone" max_length="40" name="mobile_phone" type="phone_number_e164"/>
+        <element label="Notes" max_length="40" name="notes" type="string"/>
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element label="Postal code" max_length="40" name="postal_code" type="string"/>
+        <element label="Prefix" max_length="40" name="prefix" type="string"/>
+        <element label="Shipping Address" max_length="40" name="shipping_address" type="boolean"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Street" max_length="40" name="street" type="string"/>
+        <element label="Suffix" max_length="40" name="suffix" type="string"/>
+        <element label="Time format" max_length="40" name="time_format" type="string"/>
+        <element label="Time Zone" max_length="40" name="time_zone" type="string"/>
+    </element>
+</database>

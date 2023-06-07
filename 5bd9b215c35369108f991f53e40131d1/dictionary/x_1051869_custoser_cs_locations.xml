@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="01e40751c39369108f991f53e40131af" label="CS_Locations" max_length="40" name="x_1051869_custoser_cs_locations" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Contact" max_length="32" name="contact" reference="sys_user" type="reference"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Fax" max_length="40" name="fax" type="phone_number_e164"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Street" max_length="40" name="street" type="string"/>
+        <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
+        <index name="index">
+            <element name="contact"/>
+        </index>
+    </element>
+</database>

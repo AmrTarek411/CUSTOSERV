@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="CS_Locations" language="en" table="x_1051869_custoser_cs_locations">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>CS_Locations</label>
+            <language>en</language>
+            <name>x_1051869_custoser_cs_locations</name>
+            <plural>CS_Locations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-06-07 13:17:06</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>CS_Locations</sys_name>
+            <sys_package display_value="CUSTOSERV" source="x_1051869_custoser">5bd9b215c35369108f991f53e40131d1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CUSTOSERV">5bd9b215c35369108f991f53e40131d1</sys_scope>
+            <sys_update_name>sys_documentation_x_1051869_custoser_cs_locations__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-06-07 13:17:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

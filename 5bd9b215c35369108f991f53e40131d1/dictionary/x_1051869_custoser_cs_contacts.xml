@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3eef3e99c35369108f991f53e4013162" extends="sys_user" label="CS_Contacts" max_length="40" name="x_1051869_custoser_cs_contacts" type="collection">
+        <element label="Account" max_length="32" name="account" reference="x_1051869_custoser_cs_account" type="reference"/>
+        <index name="index">
+            <element name="account"/>
+        </index>
+    </element>
+</database>

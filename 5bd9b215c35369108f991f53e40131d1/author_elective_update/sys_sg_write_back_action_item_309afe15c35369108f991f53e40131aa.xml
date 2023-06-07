@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="DELETE">
+        <description/>
+        <execution_script/>
+        <name>New (CS_Account)</name>
+        <parameter_screen/>
+        <query_condition table="x_1051869_custoser_cs_account">sys_idSTARTSWITH{{CS_Account sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{CS_Account sys_id}}"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-07 12:17:00</sys_created_on>
+        <sys_id>309afe15c35369108f991f53e40131aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New (CS_Account)</sys_name>
+        <sys_package display_value="CUSTOSERV" source="x_1051869_custoser">5bd9b215c35369108f991f53e40131d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CUSTOSERV">5bd9b215c35369108f991f53e40131d1</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_309afe15c35369108f991f53e40131aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-07 12:17:00</sys_updated_on>
+        <table>x_1051869_custoser_cs_account</table>
+        <template>name={{CS_Account name}}^number={{CS_Account number}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="DELETE" query="documentkey=309afe15c35369108f991f53e40131aa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CUSTOSERV">5bd9b215c35369108f991f53e40131d1</application>
+        <file_path/>
+        <instance_id>bb6a76e2dbb60990f492c597059619cd</instance_id>
+        <instance_name>dev126214</instance_name>
+        <name>sys_sg_write_back_action_item_309afe15c35369108f991f53e40131aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item"><sys_sg_write_back_action_item action="INSERT_OR_UPDATE"><description/><execution_script/><name>New (CS_Account)</name><parameter_screen/><query_condition table="x_1051869_custoser_cs_account">sys_idSTARTSWITH{{CS_Account sys_id}}^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="{{CS_Account sys_id}}"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></query_condition><sys_class_name>sys_sg_write_back_action_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-06-07 12:17:00</sys_created_on><sys_id>309afe15c35369108f991f53e40131aa</sys_id><sys_mod_count>1</sys_mod_count><sys_name>New (CS_Account)</sys_name><sys_package display_value="CUSTOSERV" source="x_1051869_custoser">5bd9b215c35369108f991f53e40131d1</sys_package><sys_policy/><sys_scope display_value="CUSTOSERV">5bd9b215c35369108f991f53e40131d1</sys_scope><sys_update_name>sys_sg_write_back_action_item_309afe15c35369108f991f53e40131aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-06-07 12:17:00</sys_updated_on><table>x_1051869_custoser_cs_account</table><template>name={{CS_Account name}}^number={{CS_Account number}}^EQ</template><type>new</type><use_current_record_as_condition>false</use_current_record_as_condition><use_fields_for_ref_lookup>false</use_fields_for_ref_lookup></sys_sg_write_back_action_item><sys_translated_text action="delete_multiple" query="documentkey=309afe15c35369108f991f53e40131aa"/></record_update>]]></payload>
+        <payload_hash>1439350368</payload_hash>
+        <record_name>New (CS_Account)</record_name>
+        <reverted_from/>
+        <source>d3d9b215c35369108f991f53e40131d4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-07 12:17:01</sys_created_on>
+        <sys_id>0d9afe15c35369108f991f53e40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18895c9f7ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-07 12:17:01</sys_updated_on>
+        <type>Action item</type>
+        <update_guid>819afe153c536910a6b59b94fab9c9db</update_guid>
+        <update_guid_history>819afe153c536910a6b59b94fab9c9db:1439350368</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-07 12:27:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_write_back_action_item">sys_sg_write_back_action_item</sys_db_object>
+        <sys_id>6b4b1909c19f41c69e796381a3620089</sys_id>
+        <sys_metadata>309afe15c35369108f991f53e40131aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New (CS_Account)</sys_name>
+        <sys_package display_value="CUSTOSERV" source="x_1051869_custoser">5bd9b215c35369108f991f53e40131d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CUSTOSERV">5bd9b215c35369108f991f53e40131d1</sys_scope>
+        <sys_scope_delete display_value="">0f5b5ef82d834980a78086f73f301e10</sys_scope_delete>
+        <sys_update_name>sys_sg_write_back_action_item_309afe15c35369108f991f53e40131aa</sys_update_name>
+        <sys_update_version display_value="sys_sg_write_back_action_item_309afe15c35369108f991f53e40131aa">0d9afe15c35369108f991f53e40131db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-07 12:27:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
