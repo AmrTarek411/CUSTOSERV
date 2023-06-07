@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Delete Swipe (CS_Account)">bc9afe15c35369108f991f53e40131a6</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Delete</label>
+        <location>leading_swipe</location>
+        <name>Delete (CS_Account)</name>
+        <order/>
+        <parent>b49afe15c35369108f991f53e40131a4</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-07 12:17:00</sys_created_on>
+        <sys_id>709afe15c35369108f991f53e40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete (CS_Account)</sys_name>
+        <sys_package display_value="CUSTOSERV" source="x_1051869_custoser">5bd9b215c35369108f991f53e40131d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CUSTOSERV">5bd9b215c35369108f991f53e40131d1</sys_scope>
+        <sys_update_name>sys_sg_button_instance_709afe15c35369108f991f53e40131a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-07 12:17:00</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=709afe15c35369108f991f53e40131a9"/>
+</record_update>

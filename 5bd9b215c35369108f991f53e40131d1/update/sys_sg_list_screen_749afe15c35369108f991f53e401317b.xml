@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="INSERT_OR_UPDATE">
+        <available_offline>true</available_offline>
+        <description>Customer Service Managment CS_Account</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Globe">749afaddc39f29108f991f53e4013145</icon>
+        <name>CS_Accounts</name>
+        <parameter_screen/>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-06-07 12:17:00</sys_created_on>
+        <sys_id>749afe15c35369108f991f53e401317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CS_Accounts</sys_name>
+        <sys_package display_value="CUSTOSERV" source="x_1051869_custoser">5bd9b215c35369108f991f53e40131d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CUSTOSERV">5bd9b215c35369108f991f53e40131d1</sys_scope>
+        <sys_update_name>sys_sg_list_screen_749afe15c35369108f991f53e401317b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-06-07 12:17:00</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=749afe15c35369108f991f53e401317b"/>
+</record_update>
